@@ -38,7 +38,7 @@ fi
 
 
 git clean -fdx .
-npm ci
+npm ci 
 npm run build
 
 node ./dev-scripts/validate-build-version-docker-hub.js
