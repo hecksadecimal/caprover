@@ -122,6 +122,7 @@ class DataStore {
                 netDataInfo.data.smtp && netDataInfo.data.smtp.username
                     ? netDataInfo.data.smtp
                     : {}
+            netDataInfo.data.discord = netDataInfo.data.discord || {}
             netDataInfo.data.slack = netDataInfo.data.slack || {}
             netDataInfo.data.telegram = netDataInfo.data.telegram || {}
             netDataInfo.data.pushBullet = netDataInfo.data.pushBullet || {}

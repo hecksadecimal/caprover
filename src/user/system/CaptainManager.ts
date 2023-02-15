@@ -571,6 +571,17 @@ class CaptainManager {
                         })
                     }
 
+                    if (netDataInfo.data.discord) {
+                        envVars.push({
+                            key: 'DISCORD_WEBHOOK_URL',
+                            value: netDataInfo.data.discord.hook,
+                        })
+                        envVars.push({
+                            key: 'DISCORD_CHANNEL',
+                            value: netDataInfo.data.discord.channel,
+                        })
+                    }
+
                     if (netDataInfo.data.slack) {
                         envVars.push({
                             key: 'SLACK_WEBHOOK_URL',

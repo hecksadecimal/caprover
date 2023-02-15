@@ -10,6 +10,10 @@ class NetDataInfo {
             username: string
             password: string
         }
+        discord: {
+            hook: string
+            channel: string
+        }
         slack: {
             hook: string
             channel: string

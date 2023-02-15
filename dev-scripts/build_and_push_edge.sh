@@ -18,7 +18,7 @@ fi
 
 
 CAPROVER_VERSION=0.0.1
-IMAGE_NAME=caprover/caprover-edge
+IMAGE_NAME=hecksadecimal/caprover-edge
 
 if [ ! -f ./package-lock.json ]; then
     echo "package-lock.json not found!"
